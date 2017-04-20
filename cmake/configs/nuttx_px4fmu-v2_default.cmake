@@ -48,7 +48,6 @@ set(config_module_list
 	drivers/bst
 	drivers/snapdragon_rc_pwm
 	drivers/lis3mdl
-	drivers/press_ms5803
 
 	#
 	# System commands
@@ -110,7 +109,7 @@ set(config_module_list
 	modules/mc_att_control
 	modules/mc_pos_control
 	modules/vtol_att_control
-	modules/raw_pressure
+	modules/circle
 
 	#
 	# Logging
